@@ -33,9 +33,15 @@ class TestKeywords(object):
             return element
 
     def input_text(self, locator_type, value, text):
+        # 输入一个text
         self.locator(locator_type, value).send_keys(text)
+
+    def click_element(self,locator_type, value):
+        # 点击操作
+        self.locator(locator_type, value).click()
 
 
 if __name__ == '__main__':
     tk = TestKeywords("chrome", url)
-    tk.input_text('id','kw',"自动化测试")
+    tk.input_text('id', 'kw', "自动化测试")
+    tk.click_element('xpath','//*[@id="su"]')
