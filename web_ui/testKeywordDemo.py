@@ -40,6 +40,9 @@ class TestKeywords(object):
         # 点击操作
         self.locator(locator_type, value).click()
 
+    def quit_browser(self):
+        self.driver.quit()
+
 
 if __name__ == '__main__':
     tk = TestKeywords("chrome", url)
