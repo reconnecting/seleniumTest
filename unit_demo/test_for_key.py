@@ -40,5 +40,8 @@ class TestForKey(unittest.TestCase):
     def test_3(self):
         pass
 
+    def test_4(self):
+        pass
+
 if __name__ == '__main__':
     unittest.TestCase
