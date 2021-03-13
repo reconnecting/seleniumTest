@@ -37,5 +37,8 @@ class TestForKey(unittest.TestCase):
     def test_2(self):
         print('test2,print')
 
+    def test_3(self):
+        pass
+
 if __name__ == '__main__':
     unittest.TestCase
