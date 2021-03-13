@@ -14,7 +14,8 @@ def time_sleep_decorator(func):
 
 @time_sleep_decorator
 def menthod_test():
-    print("装饰的函数")
+    print("这个就是被装饰的函数")
+
 
 @ddt
 class TestForKey(unittest.TestCase):

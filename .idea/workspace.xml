@@ -4,9 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/unit_demo/test_for_key.py" line="6" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7dcf79a0-2af0-4d82-9b02-6cdbfab1453e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/unit_demo/test_for_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/unit_demo/test_for_key.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="7dcf79a0-2af0-4d82-9b02-6cdbfab1453e" name="Default Changelist" comment="" />
+>>>>>>> dev
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +66,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/unit_demo/test_for_key.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+=======
+            <state relative-caret-position="150">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+>>>>>>> dev
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -89,9 +98,15 @@
         <option value="$PROJECT_DIR$/web_ui/web_ui_demo.py" />
         <option value="$PROJECT_DIR$/web_ui/webUIDemo.py" />
         <option value="$PROJECT_DIR$/web_ui/testKeywordDemo.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/random_demo.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/unit_demo/test_for_key.py" />
+=======
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/unit_demo/test_for_key.py" />
+        <option value="$PROJECT_DIR$/random_demo.py" />
+>>>>>>> dev
       </list>
     </option>
   </component>
@@ -256,7 +271,7 @@
       <workItem from="1615214686455" duration="4075000" />
       <workItem from="1615307659012" duration="6000" />
       <workItem from="1615560856043" duration="2601000" />
-      <workItem from="1615600622638" duration="2508000" />
+      <workItem from="1615600622638" duration="2985000" />
     </task>
     <servers />
   </component>
@@ -293,7 +308,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9197000" />
+=======
+    <option name="totallyTimeSpent" value="9667000" />
+>>>>>>> dev
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,13 +332,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32752994" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32752994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297062" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3264418" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3264418" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -423,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -437,10 +449,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/random_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/unit_demo/test_for_key.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="225">
           <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+=======
+        <state relative-caret-position="150">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+>>>>>>> dev
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
