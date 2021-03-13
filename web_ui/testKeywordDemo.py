@@ -43,6 +43,12 @@ class TestKeywords(object):
     def quit_browser(self):
         self.driver.quit()
 
+    def click_twice(self,locator_type, value):
+        self.locator(locator_type, value).click()
+        self.locator(locator_type, value).click()
+
+
+
 
 if __name__ == '__main__':
     tk = TestKeywords("chrome", url)
