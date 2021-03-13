@@ -5,15 +5,26 @@ from ddt import ddt,data,unpack
 
 url = "http://www.baidu.com"
 
+def time_sleep_decorator(func):
+    def wrapper(*args,**kwargs):
+        time.sleep(3)
+        print("等待3秒")
+        return func(*args,**kwargs)
+    return wrapper
+
+@time_sleep_decorator
+def menthod_test():
+    print("被装饰的函数")
+
 @ddt
 class TestForKey(unittest.TestCase):
     def setUp(self):
         print("setup")
         self.tk = TestKeywords("chrome", url)
 
+    @time_sleep_decorator
     def tearDown(self):
         print('teardown')
-        time.sleep(3)
         self.tk.quit_browser()
 
     @data(['id','自动化测试'],['id','单元测试'])
