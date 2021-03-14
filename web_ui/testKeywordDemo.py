@@ -4,6 +4,9 @@ import logging
 # logging.basicConfig('debug')
 url = "http://www.baidu.com"
 
+option = webdriver.ChromeOptions()
+option.add_argument('disable-infobars')
+
 class TestKeywords(object):
 
     def __init__(self,browser_type, url):
@@ -13,7 +16,7 @@ class TestKeywords(object):
     def open_browser(self, browser_type):
         # 判断浏览器类型并打开
         if browser_type == "chrome":
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome(chrome_options=option)
             return self.driver
         elif browser_type == "firefox":
             self.driver = webdriver.Firefox()
