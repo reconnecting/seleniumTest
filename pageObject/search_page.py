@@ -23,6 +23,10 @@ class SearchPage(BasePage):
         self.input_text(input_text)
         self.click_element()
 
+    # 双击元素
+    def dubble_click(self):
+        self.locator(self.click_id).double_click()
+
 if __name__ == '__main__':
     driver = webdriver.Chrome()
     sp = SearchPage(driver)
