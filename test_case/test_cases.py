@@ -20,5 +20,8 @@ class TestCases(unittest.TestCase):
     def test_1(self, input):
         self.sp.check(input)
 
+    def test_2(self):
+        pass
+
 if __name__ == '__main__':
     unittest.main()
