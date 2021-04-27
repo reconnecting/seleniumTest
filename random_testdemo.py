@@ -39,9 +39,5 @@ def fibo(target):
         a ,b =b,a+b
     print(b)
 
-
-def test_2():
-    pass
-
 if __name__ == '__main__':
     fibo(10)
