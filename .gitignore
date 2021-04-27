@@ -1,0 +1,5 @@
+/.idea
+*testdemo.py
+*.pyc
+*.txt
+random_testdemo.py
